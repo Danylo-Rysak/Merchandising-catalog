@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c230a249-a514-4a77-a2e3-d906e217f725" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2YRPR7xu2Jat1IBwehrQc3GkmNX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "20.2.0",
+    "javascript.nodejs.core.library.typings.version": "20.2.0",
+    "last_opened_file_path": "/Users/admin/WebstormProjects/merchandising-catalog",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "prettierjs.PrettierConfiguration.Package": "/Users/admin/WebstormProjects/merchandising-catalog/front-end/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
+    "ts.external.directory.path": "/Users/admin/WebstormProjects/merchandising-catalog/front-end/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/front-end" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/back-end/data" />
+      <recent name="$PROJECT_DIR$/back-end" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c230a249-a514-4a77-a2e3-d906e217f725" name="Changes" comment="" />
+      <created>1700485407948</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700485407948</updated>
+      <workItem from="1700485409036" duration="23497000" />
+      <workItem from="1700673202428" duration="719000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/back-end/node_modules/sift/src/core.js" />
+        <option value="$PROJECT_DIR$/back-end/node_modules/sift/src/index.js" />
+        <option value="$PROJECT_DIR$/back-end/node_modules/sift/src/utils.js" />
+        <option value="$PROJECT_DIR$/back-end/node_modules/sift/src/core.d.ts" />
+        <option value="$PROJECT_DIR$/back-end/node_modules/sift/src/index.d.ts" />
+        <option value="$PROJECT_DIR$/back-end/node_modules/sift/src/utils.d.ts" />
+        <option value="$PROJECT_DIR$/back-end/node_modules/sift/src/core.js.map" />
+        <option value="$PROJECT_DIR$/back-end/node_modules/sift/src/index.js.map" />
+        <option value="$PROJECT_DIR$/back-end/node_modules/sift/src/utils.js.map" />
+        <option value="$PROJECT_DIR$/back-end/node_modules/sift/src/operations.js" />
+        <option value="$PROJECT_DIR$/back-end/node_modules/sift/src/operations.d.ts" />
+        <option value="$PROJECT_DIR$/back-end/node_modules/sift/src/operations.js.map" />
+      </list>
+    </option>
+  </component>
+</project>
