@@ -16,6 +16,15 @@ app.use(cors({
 }));
 app.use(cookieParser());
 
+const usersFilePath = './data/users.json';
+let users = [];
+try {
+    const data = fs.readFileSync(usersFilePath, 'utf8');
+    users = JSON.parse(data);
+} catch (error) {
+    console.error('Error reading users file:', error);
+}
+
 const verifyUser = (req, res, next) => {
     const token = req.cookies.token;
     if (!token) {
@@ -80,6 +89,34 @@ app.get('/logout', (req, res) => {
     res.clearCookie('token');
     return res.json({Status: "Success"});
 })
+
+app.get('/logout', (req, res) => {
+    res.clearCookie('token');
+    return res.json({Status: "Success"});
+})
+
+let products = [];
+try {
+    const data = fs.readFileSync('./data/products.json', 'utf8');
+    products = JSON.parse(data);
+} catch (error) {
+    console.error('Error reading products file:', error);
+}
+
+app.get('/products', (req, res) => {
+    res.json(products);
+});
+
+app.get('/products/:id', (req, res) => {
+    const productId = parseInt(req.params.id);
+    const product = products.find((p) => p.id === productId);
+
+    if (!product) {
+        return res.status(404).json({ Error: 'Product not found' });
+    }
+
+    res.json(product);
+});
 
 app.listen(8080, () => {
     console.log('Running ...');
