@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c230a249-a514-4a77-a2e3-d906e217f725" name="Changes" comment="" />
+    <list default="true" id="bb6d4d5f-aa31-4bcd-9f32-0ff8064e7c79" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/front-end/src/components/AuthForm/index.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/components/AuthForm/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/core/api/axios.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/core/api/interfaces.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/core/api/requests.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/pages/Login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/pages/Login/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/pages/Registration/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/pages/Registration/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/vite.config.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +28,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2YRPR7xu2Jat1IBwehrQc3GkmNX" />
+  <component name="ProjectId" id="2YUOwdC86uH56YdtsNj46xjxvnH" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,43 +38,62 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "javascript.nodejs.core.library.configured.version": "20.2.0",
-    "javascript.nodejs.core.library.typings.version": "20.2.0",
-    "last_opened_file_path": "/Users/admin/WebstormProjects/merchandising-catalog",
+    "last_opened_file_path": "/Users/admin/WebstormProjects/merchandising-catalog/front-end/src",
     "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "prettierjs.PrettierConfiguration.Package": "/Users/admin/WebstormProjects/merchandising-catalog/front-end/node_modules/prettier",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
     "ts.external.directory.path": "/Users/admin/WebstormProjects/merchandising-catalog/front-end/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/front-end" />
+      <recent name="$PROJECT_DIR$/front-end/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/back-end/data" />
-      <recent name="$PROJECT_DIR$/back-end" />
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/front-end" />
     </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="npm dev" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/back-end/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c230a249-a514-4a77-a2e3-d906e217f725" name="Changes" comment="" />
-      <created>1700485407948</created>
+      <changelist id="bb6d4d5f-aa31-4bcd-9f32-0ff8064e7c79" name="Changes" comment="" />
+      <created>1700576930315</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1700485407948</updated>
-      <workItem from="1700485409036" duration="23497000" />
-      <workItem from="1700673202428" duration="719000" />
+      <updated>1700576930315</updated>
+      <workItem from="1700576931371" duration="6904000" />
+      <workItem from="1700686430391" duration="6575000" />
     </task>
     <servers />
   </component>
