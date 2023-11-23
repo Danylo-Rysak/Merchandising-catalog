@@ -25,25 +25,20 @@ try {
     console.error('Error reading users file:', error);
 }
 
-const verifyUser = (req, res, next) => {
+app.get('/checkToken', (req, res) => {
     const token = req.cookies.token;
-    if (!token) {
-        return res.json({ Error: "You are not authenticated" })
-    } else {
-        jwt.verify(token, "jwt-secret-token", (err, decoded) => {
-            if (err) {
-                return res.json({Error: err.message})
-            } else {
-                req.email = decoded.email;
-                next();
-            }
-        })
-    }
-}
 
-app.get('/', verifyUser, (req, res) => {
-    return res.json({Status: "Success", email: req.email});
-})
+    if (!token) {
+        return res.json({ Error: 'Token not found' });
+    }
+
+    jwt.verify(token, 'jwt-secret-key', (err, decoded) => {
+        if (err) {
+            return res.json({ Error: 'Invalid token' });
+        }
+        return res.json({ Status: 'Success', DecodedToken: decoded });
+    });
+});
 
 app.post('/registration', (req, res) => {
     bcrypt.hash(req.body.password.toString(), saltRounds, (err, hash) => {
@@ -121,3 +116,25 @@ app.get('/products/:id', (req, res) => {
 app.listen(8080, () => {
     console.log('Running ...');
 });
+
+
+
+// const verifyUser = (req, res, next) => {
+//     const token = req.cookies.token;
+//     if (!token) {
+//         return res.json({ Error: "You are not authenticated" })
+//     } else {
+//         jwt.verify(token, "jwt-secret-token", (err, decoded) => {
+//             if (err) {
+//                 return res.json({Error: err.message})
+//             } else {
+//                 req.email = decoded.email;
+//                 next();
+//             }
+//         })
+//     }
+// }
+//
+// app.get('/', verifyUser, (req, res) => {
+//     return res.json({Status: "Success", email: req.email});
+// })

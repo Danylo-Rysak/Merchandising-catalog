@@ -4,21 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb6d4d5f-aa31-4bcd-9f32-0ff8064e7c79" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/front-end/src/components/AuthForm/index.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/components/AuthForm/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/core/api/axios.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/core/api/interfaces.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/core/api/requests.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/normalize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="bb6d4d5f-aa31-4bcd-9f32-0ff8064e7c79" name="Changes" comment="FE - created product detail page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/data/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/data/users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/components/AuthForm/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/components/AuthForm/index.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/components/AuthForm/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/components/AuthForm/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/components/Header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/components/Header/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/pages/Login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/pages/Login/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/pages/Registration/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/pages/Registration/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/pages/Products/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/pages/Products/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +32,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "20.2.0",
+    "javascript.nodejs.core.library.typings.version": "20.2.0",
     "last_opened_file_path": "/Users/admin/WebstormProjects/merchandising-catalog/front-end/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -54,6 +50,7 @@
       <recent name="$PROJECT_DIR$/front-end/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/front-end/src/pages/Products" />
       <recent name="$PROJECT_DIR$/front-end" />
     </key>
   </component>
@@ -93,8 +90,30 @@
       <option name="presentableId" value="Default" />
       <updated>1700576930315</updated>
       <workItem from="1700576931371" duration="6904000" />
-      <workItem from="1700686430391" duration="6575000" />
+      <workItem from="1700686430391" duration="22054000" />
     </task>
+    <task id="LOCAL-00001" summary="FE - created login and registration pages">
+      <created>1700693093263</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700693093263</updated>
+    </task>
+    <task id="LOCAL-00002" summary="FE - created products page">
+      <created>1700697455630</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700697455630</updated>
+    </task>
+    <task id="LOCAL-00003" summary="FE - created product detail page">
+      <created>1700705914832</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700705914832</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,5 +134,22 @@
         <option value="$PROJECT_DIR$/back-end/node_modules/sift/src/operations.js.map" />
       </list>
     </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="FE - created login and registration pages" />
+    <MESSAGE value="FE - created products page" />
+    <MESSAGE value="FE - created product detail page" />
+    <option name="LAST_COMMIT_MESSAGE" value="FE - created product detail page" />
   </component>
 </project>
