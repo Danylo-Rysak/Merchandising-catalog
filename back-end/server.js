@@ -117,24 +117,3 @@ app.listen(8080, () => {
     console.log('Running ...');
 });
 
-
-
-// const verifyUser = (req, res, next) => {
-//     const token = req.cookies.token;
-//     if (!token) {
-//         return res.json({ Error: "You are not authenticated" })
-//     } else {
-//         jwt.verify(token, "jwt-secret-token", (err, decoded) => {
-//             if (err) {
-//                 return res.json({Error: err.message})
-//             } else {
-//                 req.email = decoded.email;
-//                 next();
-//             }
-//         })
-//     }
-// }
-//
-// app.get('/', verifyUser, (req, res) => {
-//     return res.json({Status: "Success", email: req.email});
-// })
